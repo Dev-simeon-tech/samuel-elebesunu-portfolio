@@ -106,6 +106,7 @@ header{
     padding-inline: 5%;
     fill: rgba(255, 255, 255, 0.50);
     backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     color: var(--secondary-clr);
     gap: 2rem;
     position: fixed;
@@ -154,10 +155,10 @@ header h2{
     y:45;
 }
 .hamburger-cont[aria-expanded="true"] .top{
-    rotate: 45deg;
+    transform: rotate(45deg);
 }
 .hamburger-cont[aria-expanded="true"] .bottom{
-    rotate: -45deg;
+    transform: rotate(-45deg);
 }
 .hamburger-cont[aria-expanded="true"] .middle{
     opacity: 0;
