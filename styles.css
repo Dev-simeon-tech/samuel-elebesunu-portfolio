@@ -116,7 +116,7 @@ header{
     flex-direction: column;
 }
 header h2{
-    font-family: 'Neue-Medium',sans-serif;
+    font-family: 'Neue-regular',sans-serif;
     letter-spacing: 2px;
     font-size: 18px;
 }
@@ -237,13 +237,14 @@ header h2{
     display: grid;
     gap: 72px;
 }
-.project-link{
+.project-type{
     background: linear-gradient(var(--graientBox));
     padding: 8px 16px;
     color: var(--link-clr) ;
     letter-spacing: 4px;
     border-radius: 8px;
     font-family:'Neue-light',sans-serif ;
+    border: none;
 }
 .project h3{
     padding: 24px 0;
