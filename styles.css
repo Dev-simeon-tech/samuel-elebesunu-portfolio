@@ -44,7 +44,7 @@ h1{
     font-family: 'Neue-bold',sans-serif;
 }
 p,h2,h3,figcaption{
-    letter-spacing:2px;
+    /* letter-spacing:2px; */
 }
 body{
     line-height: 1.5;
@@ -182,7 +182,7 @@ header h2{
 .hero h2{
     font-size: 38px;
     font-weight: 400;
-    font-family: 'Neue-light',sans-serif ;
+    font-family: 'Neue-regular',sans-serif ;
 }
 .hero h1{
     /* font-size: 41px; */
@@ -314,7 +314,7 @@ footer{
 footer h2{
     font-size: clamp(16px, 2vw + 1rem, 40px);
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 .foot-inner{
     flex-direction: column;
