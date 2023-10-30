@@ -43,9 +43,7 @@ picture{
 h1{
     font-family: 'Neue-bold',sans-serif;
 }
-p,h2,h3,figcaption{
-    /* letter-spacing:2px; */
-}
+
 body{
     line-height: 1.5;
     min-height: 100vh;
